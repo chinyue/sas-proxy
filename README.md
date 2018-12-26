@@ -4,6 +4,8 @@ This is a SAS (Steering Angle Sensor) proxy that forwards SAS messages from one
 CAN bus to another. It listens for CAN messages which contains SAS info, scales
 up the angle, and send it out on another CAN bus.
 
+This is not an officially supported Google product.
+
 ## Why You Need a SAS Proxy
 
 I wrote the SAS proxy to solve my own problem.
